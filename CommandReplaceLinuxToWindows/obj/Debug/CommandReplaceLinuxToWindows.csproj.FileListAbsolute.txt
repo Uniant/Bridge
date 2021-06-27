@@ -1,0 +1,15 @@
+C:\Users\user\Documents\Programs\Repositories\CommandReplaceLinuxToWindows\CommandReplaceLinuxToWindows\CommandReplaceLinuxToWindows\obj\Debug\CommandReplaceLinuxToWindows.csprojAssemblyReference.cache
+C:\Users\user\Documents\Programs\Repositories\CommandReplaceLinuxToWindows\CommandReplaceLinuxToWindows\CommandReplaceLinuxToWindows\obj\Debug\CommandReplaceLinuxToWindows.Form1.resources
+C:\Users\user\Documents\Programs\Repositories\CommandReplaceLinuxToWindows\CommandReplaceLinuxToWindows\CommandReplaceLinuxToWindows\obj\Debug\CommandReplaceLinuxToWindows.Properties.Resources.resources
+C:\Users\user\Documents\Programs\Repositories\CommandReplaceLinuxToWindows\CommandReplaceLinuxToWindows\CommandReplaceLinuxToWindows\obj\Debug\CommandReplaceLinuxToWindows.csproj.GenerateResource.cache
+C:\Users\user\Documents\Programs\Repositories\CommandReplaceLinuxToWindows\CommandReplaceLinuxToWindows\CommandReplaceLinuxToWindows\obj\Debug\CommandReplaceLinuxToWindows.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\Programs\Repositories\CommandReplaceLinuxToWindows\CommandReplaceLinuxToWindows\CommandReplaceLinuxToWindows\bin\Debug\Bridge - Replace Commands for Linux to Windows.exe.config
+C:\Users\user\Documents\Programs\Repositories\CommandReplaceLinuxToWindows\CommandReplaceLinuxToWindows\CommandReplaceLinuxToWindows\bin\Debug\Bridge - Replace Commands for Linux to Windows.exe.manifest
+C:\Users\user\Documents\Programs\Repositories\CommandReplaceLinuxToWindows\CommandReplaceLinuxToWindows\CommandReplaceLinuxToWindows\bin\Debug\Bridge - Replace Commands for Linux to Windows.application
+C:\Users\user\Documents\Programs\Repositories\CommandReplaceLinuxToWindows\CommandReplaceLinuxToWindows\CommandReplaceLinuxToWindows\bin\Debug\Bridge - Replace Commands for Linux to Windows.exe
+C:\Users\user\Documents\Programs\Repositories\CommandReplaceLinuxToWindows\CommandReplaceLinuxToWindows\CommandReplaceLinuxToWindows\bin\Debug\Bridge - Replace Commands for Linux to Windows.pdb
+C:\Users\user\Documents\Programs\Repositories\CommandReplaceLinuxToWindows\CommandReplaceLinuxToWindows\CommandReplaceLinuxToWindows\obj\Debug\Bridge - Replace Commands for Linux to Windows.TrustInfo.xml
+C:\Users\user\Documents\Programs\Repositories\CommandReplaceLinuxToWindows\CommandReplaceLinuxToWindows\CommandReplaceLinuxToWindows\obj\Debug\Bridge - Replace Commands for Linux to Windows.exe.manifest
+C:\Users\user\Documents\Programs\Repositories\CommandReplaceLinuxToWindows\CommandReplaceLinuxToWindows\CommandReplaceLinuxToWindows\obj\Debug\Bridge - Replace Commands for Linux to Windows.application
+C:\Users\user\Documents\Programs\Repositories\CommandReplaceLinuxToWindows\CommandReplaceLinuxToWindows\CommandReplaceLinuxToWindows\obj\Debug\Bridge - Replace Commands for Linux to Windows.exe
+C:\Users\user\Documents\Programs\Repositories\CommandReplaceLinuxToWindows\CommandReplaceLinuxToWindows\CommandReplaceLinuxToWindows\obj\Debug\Bridge - Replace Commands for Linux to Windows.pdb
