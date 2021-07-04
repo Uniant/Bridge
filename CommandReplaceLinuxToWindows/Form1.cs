@@ -13,7 +13,7 @@ namespace CommandReplaceLinuxToWindows {
         }
 
         private void passedCommandBox_TextChanged (object sender, EventArgs e) {
-            
+
         }
 
         private void runButton_Click (object sender, EventArgs e) {
@@ -21,10 +21,10 @@ namespace CommandReplaceLinuxToWindows {
             runCommand = ReplaceCommandIsSudo(passedCommandBox.Text);
             if (runCommand != null) {
                 // label2.Text = runCommand;
-            // Console.WriteLine(runCommand);
-            ProcessStartInfo processStartInfo = new ProcessStartInfo("cmd.exe", "/k " + runCommand);
-            // コマンド実行
-            Process.Start(processStartInfo);
+                // Console.WriteLine(runCommand);
+                ProcessStartInfo processStartInfo = new ProcessStartInfo("cmd.exe", "/k " + runCommand);
+                // コマンド実行
+                Process.Start(processStartInfo);
             }
         }
         public string ReplaceCommandIsSudo (string passedCommand) {
@@ -56,7 +56,7 @@ namespace CommandReplaceLinuxToWindows {
                     return replacedCommand;
                 }
             }
-            
+
         }
 
         public string ReplaceCommand (string passedCommand) {
@@ -70,8 +70,8 @@ namespace CommandReplaceLinuxToWindows {
                 // オプションを含めて一気に置換するので、オプションまで含めた文字列を commandsAlls に代入
                 var commandsAlls = commandsAll[0] + ' ' + commandsAll[1];
                 // commandsAlls に代入されたコマンドを Windows 用に置換、replacedCommand に代入
-                // ls -al, mv -r, cp -r, rm -r, ls -al, uname -a, ls -1, ls -lF, ls -ltr, ls -lt, grep -i, 
-                replacedCommand = commandsAlls.Replace("ls -al", "dir").Replace("mv -r", "move").Replace("cp -r", "xcopy /e /c /h").Replace("rm -r", "del").Replace("ls -al", "dir").Replace("uname -a", "ver").Replace("ls -1", "dir /b").Replace("ls -lF", "dir /ad").Replace("ls -ltr", "dir /od").Replace("ls -lt", "dir /o-d").Replace("grep -i", "grep /i").Replace("ifconfig -a", "ifconfig /a");
+                // mv -r, cp -r, rm -r, ls -al, uname -a, ls -1, ls -lF, ls -ltr, ls -lt, grep -i, 
+                replacedCommand = commandsAlls.Replace("mv -r", "move").Replace("cp -r", "xcopy /e /c /h").Replace("rm -r", "del").Replace("ls -al", "dir").Replace("uname -a", "ver").Replace("ls -1", "dir /b").Replace("ls -lF", "dir /ad").Replace("ls -ltr", "dir /od").Replace("ls -lt", "dir /o-d").Replace("grep -i", "grep /i").Replace("ifconfig -a", "ifconfig /a").Replace("cp -r foo bar", "xcopy foo bar /s/e/i/q");
                 for (int i = 2; i < commandsAll.Length; i++) {
                     replacedCommand += ' ' + commandsAll[i];
                 }

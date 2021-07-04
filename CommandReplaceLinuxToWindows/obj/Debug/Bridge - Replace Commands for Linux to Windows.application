@@ -8,20 +8,20 @@
         <beforeApplicationStartup />
       </update>
     </subscription>
-    <deploymentProvider codebase="https://uniant.net/projects/bridge/Bridge%20-%20Replace%20Commands%20for%20Linux%20to%20Windows.application" />
+    <deploymentProvider codebase="https://uniant.net/projects/bridge/bridge.exe/Bridge%20-%20Replace%20Commands%20for%20Linux%20to%20Windows.application" />
   </deployment>
   <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
     <framework targetVersion="4.7.2" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="Bridge - Replace Commands for Linux to Windows.exe.manifest" size="5020">
+    <dependentAssembly dependencyType="install" codebase="Bridge - Replace Commands for Linux to Windows.exe.manifest" size="5512">
       <assemblyIdentity name="Bridge - Replace Commands for Linux to Windows.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>fd8doi7dm3Btl2CKHNnjZgaH/lI2KiYt7zM/Yh+wjKQ=</dsig:DigestValue>
+        <dsig:DigestValue>OUpOYwvDEBOzLXdKofo5D5PdM44uNM8WDcMjGRzF4bM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
