@@ -118,7 +118,7 @@ namespace CommandReplaceLinuxToWindows {
                 // オプションを含めて一気に置換するので、オプションまで含めた文字列を commandsAlls に代入
                 var commandsAlls = commandsAll[0] + ' ' + commandsAll[1];
                 // commandsAlls に代入されたコマンドを Windows 用に置換、replacedCommand に代入
-                replacedCommand = commandsAlls.Replace("mv -r", "move").Replace("cp -r", "xcopy /e /c /h").Replace("rm -r", "del").Replace("ls -al", "dir").Replace("uname -a", "ver").Replace("ls -1", "dir /b").Replace("ls -lF", "dir /ad").Replace("ls -ltr", "dir /od").Replace("ls -lt", "dir /o-d").Replace("grep -i", "grep /i").Replace("ifconfig -a", "ifconfig /a").Replace("cp -r foo bar", "xcopy foo bar /s/e/i/q").Replace("rm -fr", "rd /s /q");
+                replacedCommand = commandsAlls.Replace("mv -r", "move").Replace("cp -r", "xcopy /e /c /h").Replace("rm -r", "del").Replace("ls -al", "dir").Replace("uname -a", "ver").Replace("ls -1", "dir /b").Replace("ls -lF", "dir /ad").Replace("ls -ltr", "dir /od").Replace("ls -lt", "dir /o-d").Replace("grep -i", "grep /i").Replace("ifconfig -a", "ifconfig /a").Replace("cp -r foo bar", "xcopy foo bar /s/e/i/q").Replace("rm -fr", "rd /s /q").Replace("shutdown", "shutdown /s").Replace("reboot", "shutdown /r");
                 for (int i = 2; i < commandsAll.Length; i++) {
                     replacedCommand += ' ' + commandsAll[i];
                 }
@@ -134,7 +134,6 @@ namespace CommandReplaceLinuxToWindows {
                 return replacedCommand;
             } else {
                 // commandsAll の 0 番目を Linux 用コマンドから Windows 用コマンドに置換、replacedCommand にすべて代入
-                // pwd, mv, cp, rm, less, date, ifconfig, clear, ls, df, diff, rsync, ps, kill, killall, grep
                 replacedCommand = commandsAll[0].Replace("pwd", "dir").Replace("mv", "move").Replace("cp", "copy").Replace("rm", "del").Replace("less", "type").Replace("date", "time").Replace("ifconfig", "ipconfig").Replace("clear", "cls").Replace("ls", "dir").Replace("df", "fsutil volume diskfree").Replace("diff", "fc").Replace("rsync", "robocopy").Replace("ps", "tasklist").Replace("kill", "taskkill").Replace("killall", "taskkill /im").Replace("grep", "findstr").Replace("sar", "logman").Replace("vmstat", "logman").Replace("iostat", "logman").Replace("top", "taskmgr").Replace("env", "set").Replace("printenv", "set").Replace("which", "where").Replace("traceroute", "tracert").Replace("wget", "bitsadmin");
                 for (int i = 1; i < commandsAll.Length; i++) {
                     replacedCommand += ' ' + commandsAll[i];
